@@ -1,7 +1,6 @@
 var express = require('express');
 var api = require('./api');
-// taking dependency on apply project, probibly not a great idea..
-// need to create a package!
+
 var PositionProvider = require('./PositionsProvider').PositionProvider;
 var PositionProvider = new PositionProvider();
 

@@ -2,7 +2,7 @@
   "author": "Don Browning <don.browning@turner.com>",
   "name": "apply-api",
   "description": "Used to apply for a job with Enterprise Applications",
-  "version": "0.0.1",
+  "version": "0.0.1-2",
   "repository": {
     "type": "git",
     "url": "git://github.com/EAAppFoundry/apply-api.git"
@@ -15,10 +15,11 @@
     "express": "latest",
     "express-messages": "latest",
     "mongoose": "latest",
-    "jsonify" : "latest"
+    "jsonify": "latest"
   },
   "devDependencies": {},
   "scripts": {
     "start": "server.js"
-  }
+  },
+  "subdomain": "apply-api"
 }
