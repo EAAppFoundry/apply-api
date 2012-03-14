@@ -1,0 +1,1 @@
+## Is this a hypermedia api?  I'm not sure yet..  it returns JSON and that might violate the "rules"
