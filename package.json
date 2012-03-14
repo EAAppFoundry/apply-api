@@ -1,0 +1,24 @@
+{
+  "author": "Don Browning <don.browning@turner.com>",
+  "name": "apply-api",
+  "description": "Used to apply for a job with Enterprise Applications",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EAAppFoundry/apply-api.git"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "~0.6.10"
+  },
+  "dependencies": {
+    "express": "latest",
+    "express-messages": "latest",
+    "mongoose": "latest",
+    "jsonify" : "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "server.js"
+  }
+}
