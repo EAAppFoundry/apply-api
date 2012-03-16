@@ -24,6 +24,6 @@ var api = {
             ]
         }
     }
-}
+};
 
 exports.Api = api;
